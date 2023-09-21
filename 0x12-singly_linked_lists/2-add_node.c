@@ -2,6 +2,14 @@
 #include <string.h>
 #include "lists.h"
 
+/**
+ * add_node - function to add new node at the start of linked list
+ * @head: to act as the double pointer to the list_t list
+ * @str: new string to add in the node
+ *
+ *Return: address of the new element ,return NULL if it fails
+ */
+
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new;
